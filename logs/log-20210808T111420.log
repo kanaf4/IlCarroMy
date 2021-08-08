@@ -1,0 +1,12 @@
+11:14:21  INFO  application.ApplicationManager - Start browser CHROME
+11:14:24  INFO  application.ApplicationManager - Navigate to -->https://ilcarro.xyz/search
+11:14:24  INFO  TestBase - Start method -->negativeTestSendKey
+11:14:28  INFO  TestBase - End of method -->negativeTestSendKey
+11:14:28  INFO  TestBase - Start method -->positiveTestSendKey
+11:14:28  INFO  TestBase - Haifa","08/10/2021","08/30/2021"
+11:14:30  INFO  TestBase - message
+11:14:32  INFO  TestBase - End of method -->positiveTestSendKey
+11:14:32  INFO  TestBase - Start method -->selectPeriodCurrentMouth
+11:14:35  INFO  TestBase - End of method -->selectPeriodCurrentMouth
+11:14:35  INFO  TestBase - Start method -->selectPeriodInFuture
+11:14:39  INFO  TestBase - End of method -->selectPeriodInFuture
