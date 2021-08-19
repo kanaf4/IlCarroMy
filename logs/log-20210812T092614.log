@@ -1,0 +1,4 @@
+09:26:17  INFO  application.ApplicationManager - Start browser CHROME
+09:26:25  INFO  application.ApplicationManager - Navigate to -->https://ilcarro.xyz/search
+09:26:25  INFO  TestBase - Start method -->loginTestPositive
+09:26:29  INFO  TestBase - End of method -->loginTestPositive

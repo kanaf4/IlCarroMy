@@ -15,9 +15,9 @@ public class MyDataProvider {
     @DataProvider
     public Iterator<Object[] > validLoginDataClassDP_LASTPROJECT(){
         List<Object[]> list= new ArrayList<>();
-        list.add(new Object[]{"noa@gmail.com","Nnoa12345$"});
-        list.add(new Object[]{"sonya@gmail.com","Ss12345$"});
-        list.add(new Object[]{"noa@gmail.com","Nnoa12345$"});
+        list.add(new Object[]{"noa2@gmail.com","Nnoa12345$"});
+        list.add(new Object[]{"sonya2@gmail.com","Ss12345$"});
+        list.add(new Object[]{"noa3@gmail.com","Nnoa12345$"});
 
         return list.iterator();
     }
@@ -28,9 +28,9 @@ public class MyDataProvider {
 
         List<Object[]> list= new ArrayList<>();
 
-        list.add(new Object[]{"Sony","Low","john@gmail.com","Nnoa12345$"});
-        list.add(new Object[]{"Sony","Low","mike@gmail.com","Ss12345$"});
-        list.add(new Object[]{"Sony","Low","dow@gmail.com","Nnoa12345$"});
+        list.add(new Object[]{"Sony","Low","john5@gmail.com","Nnoa12345$"});
+        list.add(new Object[]{"Sony","Low","mike5@gmail.com","Ss12345$"});
+        list.add(new Object[]{"Sony","Low","dow5@gmail.com","Nnoa12345$"});
 
         return list.iterator();
     }

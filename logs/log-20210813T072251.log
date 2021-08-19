@@ -1,0 +1,6 @@
+07:22:54  INFO  application.ApplicationManager - Start browser CHROME
+07:22:57  INFO  application.ApplicationManager - Navigate to -->https://ilcarro.xyz/search
+07:22:57  INFO  TestBase - Start method -->registrationTest
+07:22:57  INFO  TestBase - Registration with --> Name: Mona-->LastName: Dow --> Email:mona1377@gmail.com-->Password -->Mm1231377$
+07:23:10  INFO  TestBase - Test passed
+07:23:10  INFO  TestBase - End of method -->registrationTest

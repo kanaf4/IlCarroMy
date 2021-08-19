@@ -1,0 +1,43 @@
+09:12:41  INFO  application.ApplicationManager - Start browser CHROME
+09:12:50  INFO  application.ApplicationManager - Navigate to -->https://ilcarro.xyz/search
+09:12:50  INFO  TestBase - Start method -->createNewCar
+09:13:13  INFO  TestBase - End of method -->createNewCar
+09:13:13  INFO  TestBase - Start method -->loginTestPositive
+09:13:27  INFO  TestBase - End of method -->loginTestPositive
+09:13:27  INFO  TestBase - Start method -->loginTestPositiveDto
+09:13:40  INFO  TestBase - End of method -->loginTestPositiveDto
+09:13:40  INFO  TestBase - Start method -->registrationTest
+09:13:51  INFO  TestBase - Registration with --> Name: Mona-->LastName: Dow --> Email:mona831@gmail.com-->Password -->Mm123831$
+09:13:59  INFO  TestBase - Test passed
+09:13:59  INFO  TestBase - End of method -->registrationTest
+09:13:59  INFO  TestBase - Start method -->registrationTestCSV
+09:14:17  INFO  TestBase - Test passed
+09:14:17  INFO  TestBase - End of method -->registrationTestCSV
+09:14:17  INFO  TestBase - Start method -->registrationTestCSV
+09:14:35  INFO  TestBase - Test passed
+09:14:35  INFO  TestBase - End of method -->registrationTestCSV
+09:14:35  INFO  TestBase - Start method -->registrationTestCSV
+09:14:53  INFO  TestBase - Test passed
+09:14:53  INFO  TestBase - End of method -->registrationTestCSV
+09:14:53  INFO  TestBase - Start method -->registrationTestFrmDPClass
+09:15:03  INFO  TestBase - Registration with --> Name: Sony-->LastName: Low --> Email:john3@gmail.com-->Password -->Nnoa12345$
+09:15:11  INFO  TestBase - Test passed
+09:15:11  INFO  TestBase - End of method -->registrationTestFrmDPClass
+09:15:11  INFO  TestBase - Start method -->registrationTestFrmDPClass
+09:15:21  INFO  TestBase - Registration with --> Name: Sony-->LastName: Low --> Email:mike3@gmail.com-->Password -->Ss12345$
+09:15:29  INFO  TestBase - Test passed
+09:15:29  INFO  TestBase - End of method -->registrationTestFrmDPClass
+09:15:29  INFO  TestBase - Start method -->registrationTestFrmDPClass
+09:15:39  INFO  TestBase - Registration with --> Name: Sony-->LastName: Low --> Email:dow3@gmail.com-->Password -->Nnoa12345$
+09:15:47  INFO  TestBase - Test passed
+09:15:47  INFO  TestBase - End of method -->registrationTestFrmDPClass
+09:15:47  INFO  TestBase - Start method -->negativeTestSendKey
+09:15:52  INFO  TestBase - End of method -->negativeTestSendKey
+09:15:52  INFO  TestBase - Start method -->positiveTestSendKey
+09:15:52  INFO  TestBase - Haifa","08/25/2021","08/30/2021"
+09:15:53  INFO  TestBase - message
+09:16:06  INFO  TestBase - End of method -->positiveTestSendKey
+09:16:06  INFO  TestBase - Start method -->selectPeriodCurrentMouth
+09:16:10  INFO  TestBase - End of method -->selectPeriodCurrentMouth
+09:16:10  INFO  TestBase - Start method -->selectPeriodInFuture
+09:16:13  INFO  TestBase - End of method -->selectPeriodInFuture

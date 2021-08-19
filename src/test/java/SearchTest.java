@@ -7,9 +7,9 @@ public class SearchTest extends TestBase{
     @Test(groups = {"web"})
     public void positiveTestSendKey(){
         //with concatenate string
-        logger.info("Haifa\",\"08/10/2021\",\"08/30/2021\"");
+        logger.info("Haifa\",\"08/25/2021\",\"08/30/2021\"");
 
-        app.search().typeSearchCurrentMonth("Haifa","08/10/2021","08/30/2021");
+        app.search().typeSearchCurrentMonth("Haifa","08/25/2021","08/30/2021");
         logger.info("message");
         app.userHelper().submitForm();
         app.carHelper().pause(2000);
@@ -27,7 +27,7 @@ public class SearchTest extends TestBase{
 
     @Test()
     public void selectPeriodCurrentMouth(){
-        app.search().fillSearchFormCurrentMonth("Haifa","08/10/2021","08/30/2021");
+        app.search().fillSearchFormCurrentMonth("Haifa","08/25/2021","08/30/2021");
         app.userHelper().submitForm();
         app.carHelper().pause(2000);
         Assert.assertTrue(app.search().isListOfCarAppeared());
@@ -37,7 +37,7 @@ public class SearchTest extends TestBase{
 
     @Test
     public void selectPeriodInFuture(){
-        app.search().fillSearchFormInFuture("Haifa","08/10/2021","08/30/2021");
+        app.search().fillSearchFormInFuture("Haifa","08/25/2021","08/30/2021");
         app.userHelper().submitForm();
         app.carHelper().pause(2000);
         Assert.assertTrue(app.search().isListOfCarAppeared());

@@ -2,6 +2,7 @@ package application;
 
 import models.User;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 public class UserHelper extends HelperBase{
@@ -48,7 +49,10 @@ public class UserHelper extends HelperBase{
     }
 
     public void checkPolicy() {
-        click(By.xpath("//label[@for='terms-of-use']"));
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#terms-of-use').click();");
+        //click(By.xpath("//label[@class='checkbox-label terms-label']"));
+        //js.executeScript("document.querySelector('#terms-of-use').checked=true;");
     }
 
     public void login(User user) {
